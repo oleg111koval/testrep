@@ -35,7 +35,7 @@ public static void updateuser () throws SQLException{
 		do{
 		System.out.println("choose option:\n1-select all users \n 2-insert new user "
 				+ "\n 3-Delete user \n 4-Update user \n e-Exit");
-		
+		System.out.println("hello new commit");
 		dec = in.next();
 		switch(Integer.parseInt(dec))
 		{
